@@ -267,7 +267,7 @@ class UnirCapasThread(QThread):
 
 
 # ============================================================================
-# DIÁLOGO PRINCIPAL - VERSIÓN PROFESIONAL CON PÁGINAS
+# DIÁLOGO PRINCIPAL
 # ============================================================================
 
 class UnirCapasDialog(QDialog):
@@ -310,7 +310,7 @@ class UnirCapasDialog(QDialog):
         title_text.setStyleSheet("font-size: 14px; font-weight: bold; color: white;")
         title_layout.addWidget(title_text)
 
-        version_label = QLabel("v3.0")
+        version_label = QLabel("v1.0")
         version_label.setStyleSheet("""
             color: rgba(255,255,255,0.8);
             font-size: 9px;
@@ -544,7 +544,7 @@ class UnirCapasDialog(QDialog):
         output_group.setLayout(output_layout)
         main_layout.addWidget(output_group)
 
-        # === BARRA DE PROGRESO (SIEMPRE VISIBLE) ===
+        # === BARRA DE PROGRESO ===
         # Título de la barra de progreso
         progress_title = QLabel("📊 Progreso de la operación")
         progress_title.setStyleSheet("""
@@ -576,7 +576,7 @@ class UnirCapasDialog(QDialog):
         """)
         main_layout.addWidget(self.progress_bar)
 
-        # Label de estado (siempre visible)
+        # Label de estado 
         self.estado_label = QLabel("✅ Listo para iniciar")
         self.estado_label.setWordWrap(True)
         self.estado_label.setStyleSheet("""
