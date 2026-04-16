@@ -2,7 +2,7 @@
 name=Unir Capas Vectoriales
 description=Plugin para unir múltiples capas vectoriales en una sola capa, manejando automáticamente campos con diferentes longitudes.
 about=Este plugin permite unir múltiples capas vectoriales en una sola, con opciones para manejar campos con diferentes longitudes. Prioriza la longitud máxima de los campos para evitar pérdida de datos durante la fusión de tablas de atributos.
-version=1.0.0
+version=1.0
 qgisMinimumVersion=3.0
 qgisMaximumVersion=3.99
 author=RAUL VIQUEZ
@@ -14,6 +14,7 @@ experimental=false
 deprecated=false
 
 # Enlaces del repositorio en GitHub
+homepage=https://github.com/viquezr-dev/unir_capas_plugin
 repository=https://github.com/viquezr-dev/unir_capas_plugin
 tracker=https://github.com/viquezr-dev/unir_capas_plugin/issues
 
