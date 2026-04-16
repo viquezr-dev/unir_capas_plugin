@@ -4,6 +4,7 @@ description=Plugin para unir múltiples capas vectoriales en una sola capa, mane
 about=Este plugin permite unir múltiples capas vectoriales en una sola, con opciones para manejar campos con diferentes longitudes. Prioriza la longitud máxima de los campos para evitar pérdida de datos durante la fusión de tablas de atributos.
 version=1.0.0
 qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
 author=RAUL VIQUEZ
 email=viquezr@gmail.com
 category=Vector
